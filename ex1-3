@@ -6,7 +6,7 @@ int main()
   lower = 0;                                                                                               
   upper = 300;                                                                                             
   step = 20;                                                                                               
-  printf("\tCONVERSION OF TEMPERATURE\n");                                                                 
+  printf("  CONVERSION OF TEMPERATURE\n");                                                                 
   printf("-----------------------------\n");                                                               
   printf("|   FARENHEIT  |  CELSIUS  |\n");                                                                
   printf("-----------------------------\n");                                                               
