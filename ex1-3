@@ -9,7 +9,8 @@ int main()
   printf("  CONVERSION OF TEMPERATURE\n");                                                                 
   printf("-----------------------------\n");                                                               
   printf("|   FARENHEIT  |  CELSIUS  |\n");                                                                
-  printf("-----------------------------\n");                                                               
+  printf("-----------------------------\n");     
+  faren = lower;
   while(faren<=upper)                                                                                      
   {                                                                                                        
      celsius = ( (5.0/9.0) + (faren - 32.0) );                                                             
