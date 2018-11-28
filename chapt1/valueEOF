@@ -1,0 +1,12 @@
+#include<stdio.h>                                                                                          
+int main()                                                                                                 
+{                                                                                                          
+   int c=getchar();                                                                                        
+   int d=c!=EOF;                                                                                           
+    printf("value of the expression :%d\n",d);                                                             
+}  
+
+OUTPUT :
+
+hello                                                                                                      
+value of the expression :1
