@@ -1,0 +1,23 @@
+#include<stdio.h>                                                                                          
+int main()                                                                                                 
+{                                                                                                          
+  int c;                                                                                                   
+  int count=0;                                                                                             
+  while((c=getchar()) != EOF)                                                                                         
+  {                                                                                                        
+    if(c =='\n')
+    ++count;                                                                                               
+  }                                                                                                        
+printf("No. of lines :%d\n",count);                                                                           
+}  
+
+
+
+output :
+
+dsfs            
+sdfa                                                                                            
+sf                                                                                              
+asdf                                                                                            
+No. of lines :4                                                                                 
+                
