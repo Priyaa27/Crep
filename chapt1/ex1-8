@@ -1,0 +1,26 @@
+#include<stdio.h>                                                                                          
+int main()                                                                                                 
+{                                                                                                          
+  int c;                                                                                                   
+  int ncount=0,tcount=0,bcount=0;                                                                                             
+  while((c=getchar()) != EOF)                                                                                         
+  {                                                                                                        
+    if (c =='\n')
+       ++ncount;
+    else if(c == '\t')
+       ++tcount;
+    else if(c == ' ')
+       ++bcount;
+  }                                                                                                        
+printf("No. of lines :%d\n",ncount);
+printf("No. of tabs  :%d\n",tcount);
+printf("No. of blanks:%d\n",bcount);
+}  
+
+output :
+
+dhfkjhsk sjdhfkjs  skjdhfkjs                                                                    
+        sjdfhkjsh                                                                               
+No. of lines :2                                                                                 
+No. of tabs  :1                                                                                 
+No. of blanks:3  
