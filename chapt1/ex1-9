@@ -1,0 +1,25 @@
+#include<stdio.h>
+int main(void)
+{
+  int c,p;
+  p=' ';
+  while((c=getchar())!=EOF)
+  {
+    if(c==' ')
+    {
+      if(p!=' ')
+        putchar(c);
+    }
+    else
+      putchar(c);
+
+    p=c;
+  }
+return 0;
+}
+
+
+output :
+
+hello    world                                                                                  
+hello world
