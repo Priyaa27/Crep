@@ -1,0 +1,33 @@
+#include <stdio.h>
+#define OUT 0
+#define IN 1
+int main()
+{
+    int nc =0, nl =0, nw =0, c, state;
+    state = OUT;
+    while((c=getchar()) != EOF)
+    {
+        ++nc;
+        if(c == '\n')
+        ++nl;
+        if(c == '\n' || c == '\t' || c ==' ')
+        {
+            state=OUT;
+            nw++;
+        }
+        else if(state == OUT)
+        {
+            state = IN;
+            ++nw;
+        }
+    }
+    printf("No. of characters :%d\nNo. of words :%d\nNo.of lines :%d\n",nc,nw,nl);
+}
+
+output :
+
+hello world                                                                                     
+        hello world                                                                             
+No. of characters :25                                                                           
+No. of words :5                                                                                 
+No.of lines :2   
