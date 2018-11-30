@@ -1,0 +1,25 @@
+#include <stdio.h>
+#define OUT 0
+#define IN 1
+int main()
+{
+    int nw =0, c, state;
+    state = OUT;
+    while((c=getchar()) != EOF)
+    {
+        if(c == '\t' || c ==' ')
+        {
+            c = getchar();
+            putchar('\n');
+        }
+        putchar(c);
+    }
+}
+
+
+output :
+hello world     hello world                                                                     
+hello                                                                                           
+world                                                                                           
+hello                                                                                           
+world 
