@@ -20,8 +20,8 @@ int main()
   }
   if(max > 0)
   {
-   printf("%s",longest);   
-   printf("string lenth :%d",max-1);
+   printf("%s  is the longest string",longest);   
+   printf("longest string length :%d",max-1);
   }
 }
 
